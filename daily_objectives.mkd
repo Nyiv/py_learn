@@ -14,7 +14,7 @@ Let’s start by practicing some basic terminal navigation. Open your terminal a
 - **`mkdir folder_name`** – Create a new folder.  
   Example:  
   ```cmd
-  mkdir python_project
+  mkdir py_learn
   ```
 - **`cls`** – Clear the terminal screen.
 
