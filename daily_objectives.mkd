@@ -49,7 +49,7 @@ Once your project folder is open in VSCode:
 1. Open the **Source Control** tab (or press `Ctrl+Shift+G`).
 2. Verify the repository is connected—you’ll see all your files.
 3. Make a test change:
-   - Open a file (like `README.md`) and add a comment or some text.
+   - Open a file (like `daily_objectives.md`) and add a comment or some text.
    - Save the file (`Ctrl+S`).
 
 4. Stage, commit, and push your changes:
