@@ -136,7 +136,7 @@ print("Height:", height)
 
 ## **4. Simple Math Operations**
 ### **Arithmetic Operators**:
-- Introduce basic math operations:
+- Basic math operations:
   - `+` (Addition)
   - `-` (Subtraction)
   - `*` (Multiplication)
