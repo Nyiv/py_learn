@@ -73,5 +73,154 @@ Once your project folder is open in VSCode:
 - We will start leaning syntax from here!
 
 ---
+---
+---
+# Wed, Dec. 18th
 
 
+## **1. Writing Your First Python Code**
+1. **Start with "Hello, World!"**:
+   - Type the following:
+     ```python
+     print("Hello, World!")
+     ```
+   - Save the file and run it by typing this in the terminal:
+     ```bash
+     python filename.py
+     ```
+   - **Explain**: The `print()` function displays text in the terminal.
+
+---
+
+## **2. Variables and Data Types**
+### **What are Variables?**
+- A variable is a way to store information so you can use it later.
+
+### **Example:**
+```python
+# Storing information in variables
+name = "Alice"  # String
+age = 20        # Integer
+height = 1.2    # Float
+
+# Printing the variables (print can take in however many parameters you want)
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+```
+
+---
+
+## **3. Basic Input/Output**
+1. **Input**:
+   - Get user input using the `input()` function.
+
+   **Example:**
+   ```python
+   # Asking for user input
+   name = input("What is your name? ")
+   print("Hello,", name)
+   ```
+
+2. **Output**:
+   - Format output for better readability using format strings, also called `f-strings`.
+
+   **Example:**
+   ```python
+   # Using an f-string to print
+   age = 20
+   print(f"I am {age} years old.")
+   ```
+
+---
+
+## **4. Simple Math Operations**
+### **Arithmetic Operators**:
+- Introduce basic math operations:
+  - `+` (Addition)
+  - `-` (Subtraction)
+  - `*` (Multiplication)
+  - `/` (Division)
+
+### **Example:**
+```python
+# Simple math
+a = 10
+b = 5
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+```
+
+---
+
+## **5. Conditional Statements (`if`, `elif`, `else`)**
+### **What Are Conditional Statements?**
+- Conditional statements allow you to execute certain code only if a specific condition is met.
+
+### **Syntax Example:**
+```python
+# Simple conditional statement
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("You are an adult.")
+elif age > 12:
+    print("You are a teenager.")
+else:
+    print("You are a child.")
+```
+
+### **Explanation:**
+1. `if` checks the first condition.
+2. `elif` (else if) checks another condition if the first is `False`.
+3. `else` runs if none of the above conditions are true.
+
+---
+
+## **6. Logical Operators**
+Introduce the logical operators used in conditions:
+
+- **`and`**: Both conditions must be true.
+- **`or`**: At least one condition must be true.
+- **`not`**: Negates a condition.
+
+### **Example:**
+```python
+# Logical operators example
+age = int(input("Enter your age: "))
+is_student = input("Are you a student? (yes/no): ").lower() == "yes"
+
+if age >= 18 and is_student:
+    print("You are an adult student.")
+elif age < 18 or is_student:
+    print("You have student privileges.")
+else:
+    print("You are not a student.")
+```
+
+---
+
+## **7. Loops: Repeating Actions**
+### **Types of Loops**
+1. **`for` loop**: Iterates over a sequence (like a list or range of numbers).
+2. **`while` loop**: Repeats as long as a condition is true.
+
+### **`for` Loop Example:**
+```python
+# Using a for loop to iterate over a range
+for i in range(5):  # Loops 5 times, from 0 to 4
+    print(f"Iteration: {i}")
+```
+
+### **`while` Loop Example:**
+```python
+# Using a while loop to repeat until a condition is met
+number = 1
+
+while number <= 5:
+    print(f"Number: {number}")
+    number += 1  # Increment to avoid an infinite loop
+```
