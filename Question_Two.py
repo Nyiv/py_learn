@@ -1,4 +1,4 @@
-# Question 2
+# Question Two
 score = int(input("Please enter a score between 0 & 100: "))
 
 if score >= 50:
