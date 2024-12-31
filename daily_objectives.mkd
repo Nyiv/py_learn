@@ -207,7 +207,7 @@ else:
 ---
 ---
 
-# (). December ##th
+# Tues. December 31th
 
 ## **1. Loops: Repeating Actions**
 ### **Types of Loops**
